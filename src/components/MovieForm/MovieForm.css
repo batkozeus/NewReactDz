@@ -6,7 +6,7 @@
 	text-align: center;
 }
 
-.MovieForm__label {
+.MovieForm__label-for-form {
 	display: block;
 	margin-bottom: 20px;
 	color: #424242;
@@ -49,4 +49,16 @@
 
 .MovieForm__input:focus, .MovieForm__txtarea:focus {
 	outline-color: #303f9f;
+}
+
+.MovieForm__fieldset {
+	margin-bottom: 20px;
+	color: #424242;
+}
+
+.MovieForm__label-for-checkbox {
+	display: inline-block;
+	width: 20%;
+	min-width: 80px;
+	margin: 2% 5%;
 }
